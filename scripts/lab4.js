@@ -15,7 +15,7 @@ function sumValues(num1, num2, add) {
     }
     if (typeof num1 !== typeof num2){
         return false;
-    else {
+    } else {
         return false; 
     }
 }
