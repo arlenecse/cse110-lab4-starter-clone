@@ -31,7 +31,9 @@ function discountPrices(prices, discount) {
         let discountedPrice = prices[i] * (1 - discount);
         discounted.push(discountedPrice);
     }
-
+    if (prices == []) {
+        return false;
+    }
     return discounted;
 }
 
