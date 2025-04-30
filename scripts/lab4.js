@@ -13,6 +13,8 @@ function sumValues(num1, num2, add) {
 
         return result;
     }
+    if (num1 !=== num2){
+        return false;
     else {
         return false; //!add
     }
@@ -31,7 +33,7 @@ function discountPrices(prices, discount) {
         let discountedPrice = prices[i] * (1 - discount);
         discounted.push(discountedPrice);
     }
-    if (prices == []) {
+    if (prices.length || prices !=== discount) {
         return false;
     }
     return discounted;
